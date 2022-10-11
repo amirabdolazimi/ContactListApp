@@ -1,0 +1,16 @@
+Welcome to my ContactList Project
+~~~
+#Technologies :
+reactJS
+react-router-dom
+axios
+json-server
+~~~
+i used JSON-SERVER to PUT,POST,GET,DELTE data in local fake DB.
+Steps to use JSON-SERVER : 
+	1.install JSON-SERVER (npm i json-server)
+	2.enter this commend in your VSCode terminal : json-server --watch data/db.json --port 3001 
+	3.now you can see datas in this port and in App
+~~~
+#packages
+react-icons

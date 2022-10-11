@@ -1,0 +1,31 @@
+.formControl {
+  width: 60%;
+}
+.inputs {
+  margin: 20px 0;
+}
+.inputs input::placeholder {
+  color: rgb(186, 185, 185);
+}
+.inputs input {
+  width: 100%;
+  outline: none;
+  border: 1px solid rgb(220, 218, 218);
+  font-size: 15px;
+  border-radius: 4px;
+  padding: 12px 15px;
+  margin-top: 10px;
+}
+.inputs input:focus {
+  border: 2px solid rgb(231, 229, 229);
+}
+.AddBtn {
+  background-color: rgb(56, 124, 207);
+  outline: none;
+  border: 1px solid rgb(73, 101, 195);
+  cursor: pointer;
+  padding: 9px 21px;
+  font-size: 15px;
+  color: #fefefe;
+  border-radius: 4px;
+}

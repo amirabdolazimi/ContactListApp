@@ -1,0 +1,19 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 15px 0;
+  background-color: #efefef;
+}
+.span {
+  position: absolute;
+  background-color: rgb(103, 103, 103);
+  bottom: 0;
+  height: 1px;
+  width: 100%;
+  font-weight: bold;
+  content: "";
+}
