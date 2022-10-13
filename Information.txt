@@ -1,8 +1,8 @@
 Welcome to my ContactList Project
 ~~~
 #Technologies :
-reactJS
-react-router-dom
+ReactJS
+React-router-dom
 axios
 json-server
 ~~~
