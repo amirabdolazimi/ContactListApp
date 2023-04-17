@@ -24,7 +24,7 @@ const Contact = ({ contact, onDelete }) => {
           </div>
         </div>
       </Link>
-      <div style={{ display: "flex" }}>
+      <div className={style.contactIcons}>
         <div>
           <Link to={`/edit/${id}`}>
             <FiEdit className={style.editbtn} />

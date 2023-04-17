@@ -64,3 +64,31 @@
   font-size: 27px;
   margin-top: 5px;
 }
+.contactIcons {
+  display: flex;
+}
+@media only screen and (max-width: 640px) {
+  .Contact {
+    flex-direction: column;
+  }
+  .ContactDetail {
+    margin: 10px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .UserImg {
+    margin-bottom: 20px;
+  }
+  .UserImg img {
+    margin: 0;
+  }
+  .contactIcons {
+    align-items: center;
+    margin-top: 20px;
+  }
+  .contactIcons > div {
+    margin: 0 20px;
+  }
+}

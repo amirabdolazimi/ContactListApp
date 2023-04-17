@@ -12,7 +12,7 @@ const ContactList = () => {
 
   useEffect(() => {
     fetchContacts();
-  }, []);
+  }, [contacts, allContacts]);
 
   const fetchContacts = async () => {
     try {
